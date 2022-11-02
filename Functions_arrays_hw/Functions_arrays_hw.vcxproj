@@ -140,6 +140,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="print.cpp" />
+    <ClCompile Include="shift.cpp" />
+    <ClCompile Include="sort.cpp" />
+    <ClCompile Include="statistic.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="constants.h" />
+    <ClInclude Include="print.h" />
+    <ClInclude Include="shift.h" />
+    <ClInclude Include="sort.h" />
+    <ClInclude Include="statistic.h" />
+    <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
